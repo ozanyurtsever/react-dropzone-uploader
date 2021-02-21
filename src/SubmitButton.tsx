@@ -16,7 +16,7 @@ const SubmitButton = (props: ISubmitButtonProps) => {
 
   return (
     <div className={className} style={style}>
-      <button className={buttonClassName} style={buttonStyle} onClick={handleSubmit} disabled={disabled || _disabled}>
+      <button type="button" className={buttonClassName} style={buttonStyle} onClick={handleSubmit} disabled={disabled || _disabled}>
         {content}
       </button>
     </div>
